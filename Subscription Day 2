@@ -1,0 +1,14 @@
+Subscription in azure is like credit card without any limit. We won’t be charged until the end of the month.
+Different ways to get subscription
+	Free trail subscription- we can use until 200$ worth services.
+	Pay as you go subscription- Comes after free trail is over
+	MSDN subscription- Microsoft developer network
+	EA Subscription- Enterprise Agreement- Subscription happens through enrollment. 
+Portal.azure.com
+Activity log, Resource group
+Resource group is like a container. Storing resources. Like a separate workspace.
+Identity Access Management(IAM)
+RBAC roles- Role based access control- There are 800+ built-in roles for 200+services.
+Based on role we will limit the access. We can also create custom role
+Tags we use for billing purpose
+Cost Analysis- Which services utilizing how much. Can be viewed at Resource group level and subscription level.
