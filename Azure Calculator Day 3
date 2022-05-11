@@ -1,0 +1,18 @@
+How billing work?
+It is pay as you go.
+Azure pricing calculator. We need to know the parameters of our requirement.
+Ex: 4 servers, 4 cores, 16GB, Region: center India, OS: Windows 2016, Additional 500GB, 2 static IP’s
+We have to select instance series and Instance
+There are two types of process
+Intel – So in instance the name will be like D64d v4
+AMD – The instance will be named as D64a v4
+
+The name will be like D64ds v4 and D64as v4.  S stands for premium.
+B series is only recommended for testing. Not recommended for production support. Even A is not recommended. A is basic version. A and B used for developing and testing.
+Only for premium level config we can reserve
+In Managed disk section we can choose size of storage we need
+For reserved instance. We need to be sure on how long the server will be running, region and system requirements. Need to keep in mind all those before reserving an instance for long time.
+Azure Hybrid Benefit(AHUB), Azure Resource manager(ARM) is the latest one. 
+ARM vs Classic
+Virtual machine- First service that is going to be used is IAAS
+Firewall- Network security group in Azure
