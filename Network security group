@@ -1,0 +1,34 @@
+IAAS
+NSG-> Network security group. It is a firewall at the VM level.
+Inbound means traffic is coming to VM and outbound is vice versa through NSG
+NSG work on 5 tuple information
+Source, Source port number, destination, destination port number, protocol
+Protocol – TCP, UDP, ICMP(we used to ping  to check if we are connected)
+IP will be assigned through ISP if we are connected through same wifi etc
+NIC- Network Interface card holds IP. NSG will be attached to NIC and also subnet and both will be attached to VM
+Inbound Rule and outbound rule.
+3 rules will be created in both in NSG
+There will be priority rules/numbers. 65000+ are these rules
+Inbound Rule	OutBound rule
+Allow vNet (Virtual network) Inbound
+	Allow vNet Outbound
+
+Allow Azure Load balance inbound- 
+	Allow Internet outbound(Access all internet sites)
+
+Deny all inbound
+	Deny all outbound
+
+VNet (Virtual network) – Device in cloud connected can communicate.
+ We can block any rule at our choice.
+We can have our own customization priority rule/number.
+Standard Port numbers
+RDP(Remote Desktop Protocol)- 3389 For Windows
+SSH(Secure Shell) – 22 For Linux
+HTTP/HTTPS – 80/443
+
+Create NSG
+Search for NSG and select Network security group 
+Enter Subscription, Resource group, ,Instance name and region
+Click Next-> Tags. It is optional to enter and Review->Create
+Task. Block Internet outbound 
