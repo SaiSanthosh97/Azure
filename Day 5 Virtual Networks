@@ -1,0 +1,27 @@
+Virtual Network
+Network – Interconnection of devices
+We are connection Virtual machines. 
+Connections is made through IP
+There are two types of IP i.e., Public IP (External) and private IP (Internal).
+Public means externally accessible. External facing URL are public. Every URL will be tied up to some IP we can do nslookup.
+Subnet is division of VNet
+How do you connect to private IP through external?
+Private ranges assigned by IANA. 
+Three types of ranges. Class A, B, C
+A-	10.0.0.0 – 10.255.255.255/ 10.0.0.0/8
+B-	172.16.0.0 – 172.16.255.255/172.16.0.0/16
+C-	192.168.0.0- 192.168.255.255/192.168.0.0/24
+These ranges are default. Other than these are public.
+Private IP can be used by anyone in that range.
+Public IP is unique. If we host some website some IP will be tied to that URL and I own it and will have to pay to maintain that. We call it DNS entry
+Host entry, DNS mapping
+How IP address will be assigned. If we need 3 subnets of 64,32,16
+192.168.0.0/26 can have 64 IP
+192.168.0.64/27 can have 32 IP
+192.168.0.96/27 can have 16 IP
+255 is the maximum we can have and once when we reach the limit. The address changes to 192.168.1.0
+0 is called Network address. The first IP will be network address. It doesn’t have to be 0.0
+0.255 or the last address is called Broadcast address. 0.1 is default gateway. 0.2,0.3 is used for DNS servers. 
+Whenever we are creating VN we need to take /29 minimum. 
+Ddos provides with external attack
+Task: Create a Virtual Network
