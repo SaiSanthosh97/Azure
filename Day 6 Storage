@@ -1,0 +1,27 @@
+Storage
+Two types: Managed disk and Unmanaged disk/storage account
+Under Unmanaged we have following storage accounts
+-Blobs, Fileshares, queues, Tables
+Blobs: stores Text/binary, image,video. Os image all kind of unstructured data. Its format is .vhd(Virtual hard drive).
+Fileshare: Sharing files across network
+Queues: a service for storing large numbers of messages.
+Tables: SQL, NoSQL data.
+Managed disk:
+HDD,SSD
+https://www.guru99.com/ssd-vs-hdd.html#:~:text=In%20terms%20of%20speed%2C%20SSDs,ideal%20choice%20for%20better%20performance.
+SDD IOPS(Input ouput per second) is more like read and write speed will be fast
+Why Managed disk is preferred because everything will be managed by Microsoft.
+Azure will be replicating our data across data centers which make it Redundant 
+LRS- locally redundant storage
+ZRS- Zone redundant storage
+LRS, ZRS works in the primary region
+GRS- Geo redundant storage
+GZRS  - Geo Zone redundant storage
+GRS and GZRS works in the primary secondary region
+https://cloud.netapp.com/blog/azure-anf-blg-azure-storage-replication-explained-lrs-zrs-grs-ra-grs
+LRS stores three copies in three different racks. Whatever data we put it will make 3 copies. Replicates 3 times.
+ZRS – Will have to three region with having one copy in each region
+GRS- will have to different regions  and different zone with three copies in each region
+GZRS – Primary and secondary storage. Primary means LRS and secondary will be GRS
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+Task: Create a storage
