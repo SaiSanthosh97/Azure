@@ -24,4 +24,7 @@ ZRS – Will have to three region with having one copy in each region
 GRS- will have to different regions  and different zone with three copies in each region
 GZRS – Primary and secondary storage. Primary means LRS and secondary will be GRS
 https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
-Task: Create a storage
+Task: Create a storage account
+Access tiers: Hot, Cool
+Hot: if we have stored some video which is accessing very frequently. Reason being access cost will be less and storage cost will be more.
+Cool: Accessing cost will be more and storing cost will be less. Ex: If there is some data that we access once in a while.
