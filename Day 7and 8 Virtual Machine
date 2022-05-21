@@ -1,0 +1,12 @@
+Created a managed storage and virtual machine
+While selecting IP adress assginment 
+There will be two options: Dynamic and static
+Static means even if we shutdown the IP remains the same
+Dynamic means after shutting down the VM the IP gets reassgined and we will get a new IP
+Task: Connect to private IP Azure
+Task: Troubleshoot on how to connect to VM if the below options are there
+1. Stop/start
+2. public/private
+3. static/dynamic
+4. 3389
+5. User IP
