@@ -1,0 +1,7 @@
+Snapshot – One time capturing of image
+We are capturing a disk and keeping it as a copy. 
+DR drill and vapt will be taken care every 6 months
+Task: Create VM with Additional Disk
+Take a snapshot of the OS Disk and Additional disk
+Convert the snapshot to disk
+After converting Create another VM with that disk
