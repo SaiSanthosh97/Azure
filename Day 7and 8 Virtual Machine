@@ -1,4 +1,5 @@
 Created a managed storage and virtual machine
+Reset Configuration means resets the RDP configurations only
 While selecting IP adress assginment 
 There will be two options: Dynamic and static
 Static means even if we shutdown the IP remains the same
