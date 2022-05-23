@@ -11,3 +11,4 @@ Task: Troubleshoot on how to connect to VM if the below options are there
 3. static/dynamic
 4. 3389
 5. User IP
+Ans: Check Boot diagnostics, Reset Configurations, Redeploy + reapply
