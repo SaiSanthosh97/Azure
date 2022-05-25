@@ -1,0 +1,6 @@
+How do we delete a VM resource by resource.
+Hierarchy to delete the resource of VM.
+VM -> NIC -> Subnet -> VNet
+Disk and NSG are independent.
+How will NIC gets IP
+Vnet->Subnet->NIC
