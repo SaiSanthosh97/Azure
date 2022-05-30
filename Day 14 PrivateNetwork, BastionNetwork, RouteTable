@@ -1,0 +1,12 @@
+Three ways to connect to Private Network
+Bastion host
+Point to site
+Site to Site- VPN, ExpressRoute
+
+Bastion Host: We can connect to our services through web based URL. It is a PAAS service provided by MS. Consider there is a VN and bastion needs a dedicated subnet. There is already a network hosted in Bastion network. To host a bastion we need /26 subnet. Bastion should not have any subnet.
+One Instance can support to 12-14 servers.
+Point to site: another way of connection to private network. If we are connecting to some website hosted in Azure from Local system. We can access through VPN client package and certificate for authentication which will be shared by cloud guy. <B>Gateway Subnet</B>, This subnet should be /27.
+Task:  Create two Virtual Network
+SC1: Create a Bastion Subnet in VN1 and Create a VM
+SC2: Create a Bastion Subnet in VN1 and Create a VM and in VN2. Create a Connection Peering from VN1 to VN2.
+Route Table in Subnet: It is to restrict access. User Defined Routing.
