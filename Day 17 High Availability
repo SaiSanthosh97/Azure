@@ -1,0 +1,9 @@
+High availability 
+Practical: Deploy two VM in same Availability set. 
+Configure load balancer to the availability set
+IP assignment Load Balancer : Internet load balancer(Public IP), Internal load balancer(Private IP)
+LoadBalancer from Azure portal, with public type, SKU(Standard Keeping Unit) as standard
+Frontend IP Configuration: Add new-> Enter name, IPv4, IP Address, public address – new ip
+Backend pool – Give name and choose the Virtual network, and choose your VN and add your VM.
+Inbound rules for load balancer to route to default VM. Select FE IP and Choose BE pool and select the port 80 for HTTP, BE Port 80, Health probe: Interval 5 means checking health for every 5 seconds, threshold 2 means if two times the server fail then redirect to other VM.
+Added Inbound NAT rule to connect from RDP. 
